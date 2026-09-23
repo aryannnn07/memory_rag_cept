@@ -5,6 +5,10 @@ Classic RAG answers every question as if from a stranger. Memory RAG remembers w
 what you find hard and what you're working towards, and uses that to personalise both the
 answer **and the search itself**.
 
+<img width="954" height="398" alt="Screenshot 2026-09-23 at 11 23 34 PM" src="https://github.com/user-attachments/assets/78044b92-efa4-40e4-81a1-7ca4ef5dc940" />
+
+
+
 ## What's inside
 
 | File | Purpose |
