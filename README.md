@@ -1,4 +1,4 @@
-# Memory RAG — a tutor that remembers
+# Memory RAG - a tutor that remembers
 
 A Retrieval-Augmented Generation system with **long-term user memory**, built on **ChromaDB**.
 Classic RAG answers every question as if from a stranger. Memory RAG remembers who you are,
