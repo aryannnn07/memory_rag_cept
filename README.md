@@ -22,15 +22,15 @@ Workflow Screenshots:
 <img width="1469" height="803" alt="Screenshot 2026-09-24 at 9 59 25 AM" src="https://github.com/user-attachments/assets/2c72dbdc-14a3-451f-a736-78f35403210f" />
 
 Some More Working Features:
-a. Updates facts instead of duplicating them — when something changes (like an exam date), the system corrects the existing memory rather than storing two conflicting versions.
-b. Survives a full server restart — memories are written to disk via ChromaDB, so stopping and restarting the server doesn't lose anything, unlike keeping history only in RAM.
-c. Forgets things on request — a user can ask in plain conversation to stop remembering something specific, and it's actually deleted, not just ignored.
-d. Recognises duplicate information — repeating a fact it already knows gets skipped instead of cluttering memory with the same thing stored twice.
-e. Supports manual memory management — beyond conversation, individual memories can be deleted directly by the user through the interface.
-f. Keeps memories private per user — one person's stored facts are never visible to or retrievable by another user.
-g. Offers a full "forget me" option — a user can wipe every memory stored about them in one action, not just individual facts.
-h. Lets the knowledge base grow over time — new documents can be uploaded and indexed at any point without restarting the server.
-i. Automatically forgets stale, low-value memories — a prune policy can clear out unused, low-importance memories after a set time, so memory doesn't grow forever.
+a. Updates facts instead of duplicating them - when something changes (like an exam date), the system corrects the existing memory rather than storing two conflicting versions.
+b. Survives a full server restart - memories are written to disk via ChromaDB, so stopping and restarting the server doesn't lose anything, unlike keeping history only in RAM.
+c. Forgets things on request - a user can ask in plain conversation to stop remembering something specific, and it's actually deleted, not just ignored.
+d. Recognises duplicate information - repeating a fact it already knows gets skipped instead of cluttering memory with the same thing stored twice.
+e. Supports manual memory management - beyond conversation, individual memories can be deleted directly by the user through the interface.
+f. Keeps memories private per user - one person's stored facts are never visible to or retrievable by another user.
+g. Offers a full "forget me" option - a user can wipe every memory stored about them in one action, not just individual facts.
+h. Lets the knowledge base grow over time - new documents can be uploaded and indexed at any point without restarting the server.
+i. Automatically forgets stale, low-value memories - a prune policy can clear out unused, low-importance memories after a set time, so memory doesn't grow forever.
 
 
 ## What's inside
