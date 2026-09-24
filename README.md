@@ -5,7 +5,32 @@ Classic RAG answers every question as if from a stranger. Memory RAG remembers w
 what you find hard and what you're working towards, and uses that to personalise both the
 answer **and the search itself**.
 
-<img width="954" height="398" alt="Screenshot 2026-09-23 at 11 23 34 PM" src="https://github.com/user-attachments/assets/78044b92-efa4-40e4-81a1-7ca4ef5dc940" />
+Workflow Screenshots:
+1. The FastAPI backend, with interactive Swagger documentation generated automatically from the request/response models - every endpoint here can be tested directly from the browser:
+<img width="1453" height="848" alt="Screenshot 2026-09-24 at 9 48 48 AM" src="https://github.com/user-attachments/assets/fbb67bf0-65ed-40ae-bb03-5fe37db45548" />
+
+2. The knowledge base auto-loads on first start — this endpoint confirms the course notes were chunked and embedded into ChromaDB before any question was ever asked:
+<img width="1445" height="782" alt="Screenshot 2026-09-24 at 9 49 49 AM" src="https://github.com/user-attachments/assets/2a57c86b-ab09-4bdd-856a-a0058c670f97" />
+
+3.After one message, the write path extracts distinct, durable facts about the student - name, weak topic, and deadline - and stores each as its own memory, not the raw transcript. It also shows the importance of each fact.
+<img width="1462" height="801" alt="Screenshot 2026-09-24 at 9 51 29 AM" src="https://github.com/user-attachments/assets/223748fe-cc74-47a5-89be-fe49277ff90d" />
+
+4. After I start a new session, the short term memory gets deleted and the long term memory is preserved. After I ask the model what should I revise without mentioning anything, it answers correctly based on its memory of its date. The final answer is grounded in course material but shaped by what the tutor remembers about this specific student, rather than a generic response anyone would receive:
+<img width="1470" height="815" alt="Screenshot 2026-09-24 at 9 53 43 AM" src="https://github.com/user-attachments/assets/12733f9d-cb7c-463c-add7-802165fa391d" />
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
